@@ -22,7 +22,7 @@ const SignUpForm = () => {
     const [formFields, setFormFields] = useState(defaultFormfields);
     const { displayName, email, password, confirmPassword } = formFields;
 
-    console.log(formFields);
+ //   console.log(formFields);
 
     const resetFormFields = () => {
         setFormFields(defaultFormfields);
@@ -92,7 +92,7 @@ const SignUpForm = () => {
                     onChange={handleChange}
                     required
                 />
-                <Button type='submit'>Submit</Button>
+                <Button type='submit'>Sign up</Button>
             </form>
         </div>
     )
