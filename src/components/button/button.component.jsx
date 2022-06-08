@@ -1,4 +1,8 @@
-import { BaseButton, GoogleSignInButton, InvertedButtom } from './button.styles.jsx'
+import {
+    BaseButton,
+    GoogleSignInButton,
+    InvertedButtom
+} from './button.styles.jsx'
 
 export const BUTTON_TYPE_CLASSES = {
     base:'base',
