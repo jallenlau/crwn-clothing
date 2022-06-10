@@ -1,0 +1,3 @@
+export const CATEGORIES_STATE = {
+    SET_CATEGORIES_MAP: 'category/SET_CATEGORIES_MAP'
+};
