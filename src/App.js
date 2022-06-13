@@ -4,11 +4,9 @@ import { useDispatch } from 'react-redux';
 import { useEffect } from "react";
 
 import { setCurrentUser } from './store/user/user.action'
-import { setCategoriesMap } from './store/categories/category.action'
 import {
   onAuthStateChangedListener,
   createUserDocumentFromAuth,
-  getCategoriesAndDocuments,
 } from './utiles/firebase/firebase.utiles'
 import Navigation from './routes/navigation/navigation.component';
 import Authentication from '../src/routes/Authentication/Authentication.component'
