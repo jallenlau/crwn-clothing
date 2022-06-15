@@ -1,4 +1,5 @@
 import { SET_CURRENT_USER_STATE } from './user.types'
+
 const INITIAL_USER = {
     currentUser: null,
 };
