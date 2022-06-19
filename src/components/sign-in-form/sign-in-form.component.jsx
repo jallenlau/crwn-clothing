@@ -8,11 +8,6 @@ import {
 } from '../../store/user/user.action';
 
 import {
-    signInWithGooglePopup,
-    signInAuthUserWithEmailAndPassword,
-} from '../../utiles/firebase/firebase.utiles';
-
-import {
     ButtonsContainer,
     SignInContainer,
 } from './sign-in-form.styles.jsx'

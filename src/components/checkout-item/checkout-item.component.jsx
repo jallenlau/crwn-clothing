@@ -25,7 +25,7 @@ const CheckoutItem = ({ cartItem }) => {
     return (
         <CheckoutItemContainer>
             <ImageContainer>
-                <img src={ imageUrl } alt={'${ name }'} />
+                <img src={ imageUrl } alt={ name } />
             </ImageContainer>
             <BaseSpan>{ name }</BaseSpan>
             <Quantity>
